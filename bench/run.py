@@ -68,7 +68,7 @@ def run(size: int, iters: int, warmup: int) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--size", type=int, default=4096)
-    ap.add_argument("--iters", type=int, default=20)
+    ap.add_argument("--iters", type=int, default=50)
     ap.add_argument("--warmup", type=int, default=3)
     ap.add_argument("--tag", default="run")
     ap.add_argument("--out-dir", default="bench/results")

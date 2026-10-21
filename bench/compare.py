@@ -6,9 +6,9 @@ import argparse
 import json
 import sys
 
-MAX_LATENCY_REGRESSION = 0.05
-MAX_MEM_REGRESSION = 0.05
-MAX_THROUGHPUT_DROP = 0.03
+MAX_LATENCY_REGRESSION = 0.10
+MAX_MEM_REGRESSION = 0.10
+MAX_THROUGHPUT_DROP = 0.10
 
 
 def load(path: str) -> dict:

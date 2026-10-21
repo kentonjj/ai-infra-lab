@@ -1,12 +1,12 @@
 {
   "op": "matmul_bf16_4096",
-  "iterations": 20,
+  "iterations": 50,
   "latency_ms": {
-    "p50": 6.391241999153863,
-    "p95": 6.813296999098384,
-    "max": 6.94601799841621
+    "p50": 5.9072430012747645,
+    "p95": 6.432269001379609,
+    "max": 6.6116910020355135
   },
-  "throughput_gflops": 21504.2637237325,
+  "throughput_gflops": 23266.1756833672,
   "peak_mem_gib": 0.1016845703125,
   "device": {
     "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
@@ -14,6 +14,6 @@
     "cc": "8.9"
   },
   "torch": "2.14.1+cu130",
-  "git_sha": "c2b534d",
-  "timestamp": "2026-10-21T08:31:56+00:00"
+  "git_sha": "e7b1bef",
+  "timestamp": "2026-10-21T09:55:56+00:00"
 }
